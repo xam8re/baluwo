@@ -1,5 +1,5 @@
 {
-    "name": "GIT_USER_ID/GIT_REPO_ID",
+    "name": "xam8re/baluwo",
     "description": "",
     "keywords": [
         "swagger",
@@ -8,11 +8,14 @@
         "api"
     ],
     "homepage": "http://swagger.io",
-    "license": "proprietary",
-    "authors": [
-        {
+    "license": "MIT",
+    "authors": [{
             "name": "Swagger and contributors",
             "homepage": "https://github.com/swagger-api/swagger-codegen"
+        },
+        {
+            "name": "SMassimiliano",
+            "homepage": "https://maxict.it"
         }
     ],
     "require": {
@@ -28,9 +31,9 @@
         "friendsofphp/php-cs-fixer": "~2.12"
     },
     "autoload": {
-        "psr-4": { "Swagger\\Client\\" : "lib/" }
+        "psr-4": { "Swagger\\Client\\": "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "Swagger\\Client\\" : "test/" }
+        "psr-4": { "Swagger\\Client\\": "test/" }
     }
 }
